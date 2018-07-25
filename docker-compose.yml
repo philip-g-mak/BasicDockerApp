@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  basicdockerapp:
+    image: ${DOCKER_REGISTRY}basicdockerapp
+    build:
+      context: .
+      dockerfile: BasicDockerApp/Dockerfile
