@@ -3,7 +3,7 @@
 This application is the best application ever and is already on the conygre docker repo. 
 
 # How to configure installation
-Create file daemon.json in /etc/docker/
+Create file daemon.json in /etc/docker/ to pull from insecure docker registries
 You may need to switch user using 
 
     bash: sudo su
